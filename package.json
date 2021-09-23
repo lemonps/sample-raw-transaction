@@ -1,0 +1,15 @@
+{
+  "name": "sample-raw-transaction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lemonsuy/sample-raw-transaction.git",
+  "author": "lemonsuy <lemon.pattharathon@bitkub.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "PRIVATE_KEY={PRIVATE_KEY} node src/sendMultipleTx.js"
+  },
+  "dependencies": {
+    "ethers": "^5.4.7"
+  }
+}
+
